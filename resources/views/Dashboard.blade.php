@@ -13,7 +13,7 @@
               <div class="inner">
                 <h3>150</h3>
                 
-                <p>New Orders</p>
+                <p>Labourers</p>
               </div>
               <div class="icon">
                 <i class="ion ion-bag"></i>
@@ -43,7 +43,7 @@
               <div class="inner">
                 <h3>44</h3>
                 
-                <p>User Registrations</p>
+                <p>Materials</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>

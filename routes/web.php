@@ -17,4 +17,7 @@ use App\Http\Controllers\settingsController;
 Route::get('/', function () {
     return view('Dashboard');
 });
+Route::get('material', function () {
+    return view('Transactions/Material');
+});
 Route::resource('projects', settingsController::class);
