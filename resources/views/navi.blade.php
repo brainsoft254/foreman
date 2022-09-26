@@ -31,19 +31,19 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('cost center')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Cost centers</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('materials')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Materials</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('labourers')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Labourers</p>
                 </a>
@@ -66,31 +66,31 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('labour')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Labour Sheets</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('equipment')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Equipment Sheets</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('subcontractor')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Subcontactor Sheets</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('services')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Services Sheets</p>
                 </a>
 </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('vat')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>VAT Sheets</p>
                 </a>
@@ -107,19 +107,25 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('Material Reports')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Material Reports</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('Job Reports')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Job progress reports</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('Labour Reports')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Labour reports</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{url('Vat Reports')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>VAT reports</p>
                 </a>

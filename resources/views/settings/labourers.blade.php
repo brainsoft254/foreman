@@ -1,5 +1,5 @@
 @extends('fore-main') 
-@section('title','Job Reports')
+@section('title','Labourers')
  @section('content')              
   <hr>
     <div class="content-wrapper">
@@ -10,13 +10,13 @@
                     <div class="col-md-12">
                     <h3 class="small-box bg-primary"><strong><i
                                 class='bx bxs-user-detail bx-fw bx-md'></i>
-                            Job Reports </strong> </h3>
+                            Labourers Set-up </Set-up></Center> </strong> </h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-3">
                         <a href="{{route('projects.create')}}" class="btn btn-warning glow pull-left" id="btnNew"><i
-                                class="fa fas fa-plus fw-fa"></i> </a>
+                                class="fa fas fa-plus fw-fa"></i></a>
                     </div>
                 </div>
                 <hr>

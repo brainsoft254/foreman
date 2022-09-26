@@ -1,5 +1,5 @@
 @extends('fore-main') 
-@section('title','Job Reports')
+@section('title','Labour Reports')
  @section('content')              
   <hr>
     <div class="content-wrapper">
@@ -10,7 +10,7 @@
                     <div class="col-md-12">
                     <h3 class="small-box bg-primary"><strong><i
                                 class='bx bxs-user-detail bx-fw bx-md'></i>
-                            Job Reports </strong> </h3>
+                            Labour Reports </strong> </h3>
                     </div>
                 </div>
                 <div class="row">
