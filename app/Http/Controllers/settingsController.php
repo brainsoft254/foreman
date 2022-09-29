@@ -26,7 +26,7 @@ class settingsController extends Controller
      */
     public function create()
     {
-        //////
+        return view('settings.project');
     }
     
     /**

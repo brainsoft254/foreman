@@ -15,7 +15,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-3">
-                        <a href="{{route('projects.create')}}" class="btn btn-warning glow pull-left" id="btnNew"><i
+                        <a href="#" link-url ="{{route('projects.create')}}" class="btn btn-warning glow pull-left" id="btnNew"><i
                                 class="fa fas fa-plus fw-fa"></i> Add new Project</a>
                     </div>
                 </div>
@@ -39,3 +39,26 @@
         </section>  
     </div>  
  @stop   
+ @section('page-scripts')
+ <script type="text/javascript">
+    $(function() {
+        alert('');
+        $(document).on('click', "a#btnNew", function(e) {
+            e.preventDefault();
+            var urli = $(this).attr('link-url');
+            $.get(urli, "", function(data) {
+                bootbox.dialog({
+                    title: '',
+                    message: data,
+                    size: 'xl',
+                    backdrop: true,
+                    onEscape: true,
+                    callback: function() {
+                        location.reload();
+                    }
+                });
+            });
+        });
+    });
+ </script>
+ @stop
