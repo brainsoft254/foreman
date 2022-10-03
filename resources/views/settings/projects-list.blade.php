@@ -42,7 +42,6 @@
  @section('page-scripts')
  <script type="text/javascript">
     $(function() {
-        alert('');
         $(document).on('click', "a#btnNew", function(e) {
             e.preventDefault();
             var urli = $(this).attr('link-url');
@@ -59,6 +58,18 @@
                 });
             });
         });
+        $(document).on("keyup", "#takeoffcost", function() {
+            console.log(parseFloat($(this).val()));
+            if (parseFloat($(this).val()) < 0) {
+            Swal.fire('Invalid Amount', 'Enter Amount Greater than Zero & Try Again', 'error');
+            $(this).val('');
+            $(this).focus();
+            return;
+        }
+        });
+        $(".datepicker,#expedate").datepicker({
+            format: 'yyyy-mm-dd'
+            });
     });
  </script>
  @stop

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\project;
+use App\Models\county;
 
 class settingsController extends Controller
 {
@@ -26,7 +27,8 @@ class settingsController extends Controller
      */
     public function create()
     {
-        return view('settings.project');
+        $counties = county::all();
+        return view('settings.project')->with('counties',$counties);
     }
     
     /**
